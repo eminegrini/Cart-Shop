@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgba(179,220,237,1);
+  background: -moz-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(179,220,237,1)), color-stop(50%, rgba(41,184,229,1)), color-stop(100%, rgba(188,224,238,1)));
+  background: -webkit-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+  background: -o-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+  background: -ms-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+  background: linear-gradient(to right, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee', GradientType=1 );
+
+}
+
+.navigation {
+  display: flex;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  background-color:rgba(122, 178, 243, 0.9); 
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  border-radius: 8px; 
+  top: 0;
+  height: 37px;
+}
+
+a {
+  color: white;
+  padding: 10px;
+  border-right: white solid 1px;
+  text-decoration: none;
+  font-size: 14px;
+}
+.total {
+  color: white;
+  padding: 10px;
+}
+.navRight {
+  display: flex;
+}
+
+a:hover {
+  background-color: rgba(26, 32, 22, 0.7); 
+}
+
+.cardContainer {
+  margin-left:10%; 
+  margin-right: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.card {
+	margin-top: 1.5%;
+  border: 2px solid rgb(120, 248, 248);
+  background-color: rgba(190, 187, 187, 0.7);
+  padding: 10px;
+  margin: 10px;
+  height: 400px;
+  width: 28%;
+  border-radius:10px 10px 10px 10px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 10%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.description {
+  margin-top: 10%;
+  margin-bottom: 10%; 
+  text-align: center;
+}
+
+.precio {
+  text-align: center;
+  margin-top: 10%;
+
+}
+.button {
+  margin-top: 10%;
+  text-align: center;
+}
+
+button {
+  border: #00c3ff double 3px;
+  height: 40px;
+  width: 90px;
+  background-color: rgb(255, 255, 255);
+  border-radius:7px 7px 7px 7px;
+  outline: none;
+  
+}
+button:hover {
+  background-color: rgb(236, 248, 219);
+}
+button:active {
+  background-position: 0 -18px;
+}
+.cartImg {
+  height: 20px;
+  width: 25px;
+}
+.productImg {
+  height: 45%;
+  width: 100%;
+}
+
+.productImg {
+  border: #00c3ff solid 2px;
+}
+.listTotal {
+  background-color: rgba(192, 192, 55, 0.2);
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background-color:rgba(192, 192, 55, 0.3)
+}
+
+.top {
+  margin: 5% 0;
+
+}
+
+.prodPrice {
+  text-align: center; 
+  width: 30%;
+}
+.prodTitle {
+  width: 33%;
+}
+.totalPrice {
+  text-align: end;
+}
+.price {
+  text-align: center;
+}
+
+.totalCost {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.prodCant {
+  width: 22%; 
+}
