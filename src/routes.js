@@ -12,7 +12,6 @@ import Cart from "./component/cart";
 const Routes = () => (
   <App>
     <Switch>
-      {/* Example Routes */}
       <Route exact path="/Cart" component={Cart} />
       <Route exact path="/price" component={Price}/>
       <Route exact path="/new" />
